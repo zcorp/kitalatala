@@ -30,4 +30,4 @@ jobs:
         github_token: ${{ secrets.ACCESS_TOKEN }}
         branch: gui-prod #gui-prod
         force: true
-        directory: ./dist
+        directory: ./out
